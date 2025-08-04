@@ -1,0 +1,63 @@
+export const projects = [
+  {
+    title: 'Motel',
+    description: "The CMS system manages and maintains internal management information for the Motel web app.",
+      image: '/images/1.png',
+      tags: ['Php', 'Html&Css', 'Figma', 'UI/UX'],
+    id: 0,
+  },
+  {
+    title: 'Trip Planner',
+    description:"To allow KLM customers to search for plane tickets in a new and unique way, the user interface is currently used for internal purposes and may be utilized for future purposes as well.",
+    image: '/images/2.png',
+    tags: ['MERN Stack', 'UI/UX', 'Figma', 'GIT',],
+    id: 1,
+  },
+  {
+    title: 'React Native module',
+    description: "A custom module that integrates the PlotProjects SDK with a single command for both iOS and Android.",
+      image: '/images/3.png',
+      tags: ['React Native', 'Swift', 'Android', 'Objective-C'],
+    source: 'https://www.npmjs.com/package/plotprojects-react-native-module',
+    id: 2,
+  },
+  {
+    title: 'LiftGebruik',
+    description: "A custom user interface that displays elevator usage stats and collects data for research and durability analysis.",
+    image: '/images/4.png',
+    tags: ['Raspberri Pi', 'ReactJS', 'Firebase', 'UI/UX'],
+    source: 'https://liftgebruik.netlify.app/',
+    visit: 'https://github.com/alanwindesheim/fea',
+    id: 3,
+  },
+  {
+    title: 'Ultimum Careers website',
+    description: "Developed a recruitment website that allowed the company to publish and manage job vacancies online, making it easier to share openings on social media and reach a wider pool of candidates.",
+    image: '/images/5.jpg',
+    tags: ['PHP', 'JQuery', 'HTML', 'CSS', 'MySql'],
+    source: 'https://ultimum.nl/',
+    id: 4,
+  },
+  {
+    title: 'AI exam grader (Under construction)',
+    description: "Developed an AI-powered exam grading platform that evaluates student submissions based on subject understanding, quality of argumentation, and use of examples, while allowing teachers to adjust AI-generated scores for final grading.",
+    image: '/images/6.png',
+    tags: ['OpenAI', 'NextJs', 'Tailwind CSS', 'Node.js', 'Figma'],
+    source: 'https://examgrader.vercel.app/',
+    id: 5,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2014, text: 'Started my journey.' },
+  { year: 2016, text: 'Introduced to design and frontend development.' },
+  { year: 2018, text: 'First project: Motel as a Software Engineer.' },
+  { year: 2019, text: 'Built Trip Planner frontend UI.' },
+  { year: 2020, text: 'Started mobile dev with React Native.' },
+  { year: 2021, text: 'Worked on LiftGebruik CO₂ project.' },
+  { year: 2021, text: 'Gained experience with Python, HTML, and CSS.' },
+  { year: 2021, text: 'Built careers website to reach more candidates.' },
+  { year: 2023, text: 'Thesis 1: Learned automated regression testing.' },
+  { year: 2023, text: 'Thesis 2: Built full-stack SQL interpreter (Angular & .NET).' },
+  { year: 2024, text: 'Started Cloud/DevOps with AWS and IaC.' },
+];
